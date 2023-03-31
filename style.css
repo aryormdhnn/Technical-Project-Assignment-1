@@ -201,10 +201,10 @@ nav {
   color: #fff;
 }
 
-
 .Portfolio{
   padding-top: 80px;
 }
+
 .Portfolio-text{
   display: flex;
   justify-content: space-between;
@@ -288,4 +288,34 @@ button {
   margin-top: 10px;
   font-size: 16px;
   color: #fff;
+}
+
+.design-process{
+  padding: 80px 100px;
+}
+
+.design-process-text{
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-process-text h2{
+  font-size: 48px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.design-process-gallery{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.design-process-item{
+  width: 264px;
+  height: auto;
+  margin: 24px;
+  padding: 16px;
+  background-color: #fff;
+  text-align: center;
 }
