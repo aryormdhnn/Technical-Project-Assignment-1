@@ -17,11 +17,9 @@ nav {
   color: #fff;
 }
 
-.logo a {
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #fff;
+.logo img {
+  width:48px;
+  height:48px;
 }
 
 .menu ul {
@@ -43,13 +41,13 @@ nav {
   font-size: 16px;
 }
 
-.icons a {
+.icons-navbar a {
   margin-left: 20px;
   text-decoration: none;
   color: #121212;
 }
 
-.icons i {
+.icons-navbar i {
   font-size: 20px;
 }
 
@@ -69,14 +67,6 @@ nav {
   text-align: center;
 }
 
-.hero label{
-  font-size: 16px;
-  font-weight: 600;
-  background-color: #006aff;  
-  padding:16px;
-  border-radius: 100px;
-  color: #fff;  
-}
 
 .hero-text h1 {
   font-size: 64px;
@@ -91,6 +81,7 @@ nav {
   margin-top: 20px;
   margin-bottom: 32px;
   text-align: center;
+  color: #6c6b6a;
 }
 
 .button {
@@ -120,7 +111,7 @@ nav {
 
 .about-us{
   background-color: #130E0B;
-  padding: 80px 100px;
+  padding: 80px 120px;
 }
 
 .about-text h2{
@@ -138,9 +129,21 @@ nav {
 }
 
 .experience{
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   margin-top: 80px;
+}
+
+.experience-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experience-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .experience h2{
@@ -149,7 +152,8 @@ nav {
   color: #fff;
 }
 .experience-text{
-  margin: 32px;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .experience-text h3{
@@ -167,7 +171,7 @@ nav {
 }
 
 .experience-text li{
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #C8C8C8;
   margin-top: 8px;
@@ -271,7 +275,7 @@ button {
 }
 
 .portfolio-item img {
-  width: 550px;
+  max-width: 520px;
   height: 550px;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -291,7 +295,7 @@ button {
 }
 
 .design-process{
-  padding: 80px 100px;
+  padding: 80px 120px;
 }
 
 .design-process-text{
@@ -318,4 +322,97 @@ button {
   padding: 16px;
   background-color: #fff;
   text-align: center;
+}
+
+
+.contact-us {
+  padding: 80px 120px;
+}
+
+.contact-container {
+  display: flex;
+}
+
+.contact-info {
+  width: 50%;
+  padding-right: 30px;
+}
+
+.contact-info h2 {
+  margin-bottom: 30px;
+}
+
+.contact-text {
+  margin-bottom: 30px;
+}
+
+.contact-text h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-text p {
+  font-size: 16px;
+  margin: 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.form-container {
+  width: 50%;
+}
+
+.form-container h2 {
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  /* border-radius: 5px; */
+  border: none;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #423E3C;
+}
+
+textarea {
+  height: 150px;
+}
+button[type="submit"] {
+    background-color: #1abc9c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #16a085;
 }

@@ -22,7 +22,7 @@
         <!-- Navbar -->
         <nav>
             <div class="logo">
-                <a href="#">Logo</a>
+                <img src="assets/Logo.png" alt="">
             </div>
             <div class="menu">
                 <ul>
@@ -40,7 +40,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="icons">
+            <div class="icons-navbar">
                 <a href="#"><img src="assets/Behance.svg" alt=""></a>
                 <a href="#"><img src="assets/Dribbble.svg" alt=""></a>
                 <a href="#"><img src="assets/IG.svg" alt=""></a>
@@ -52,10 +52,9 @@
         <!-- Hero -->
         <section class="hero">
             <div class="hero-text">
-                <label>HI, Everyone🖐</label>
                 <h1>Hi, I'm
-                    <span>John Doe</span></h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
+                    <span>Aryo Romadhon Vardhana</span></h1>
+                <p>I'm currently pursuing a major in informatics engineering at the University of Persada Indonesia.</p>
                 <button class="button">
                     Hover me :)
                 </button>
@@ -154,9 +153,54 @@
                             <h3>Prototyping</h3>
                         </div>
                         </div>
-
-                  <!-- End Design Process -->
             </div>
         </section>
+                <!-- End Design Process -->
+
+                <!-- Contact Us -->
+                <section class="contact-us">
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <div class="contact-text">
+                <h3>My Phone Number</h3>
+                <p>+62 87776591007</p>
+            </div>
+            <div class="contact-text">
+                <h3>Email</h3>
+                <a href="mailto:aryoromadhon8@gmail.com"><p>aryoromadhon8@gmail.com</p></a>
+            </div>
+            <div class="contact-text">
+                <h3>Social Media</h3>
+                <div class="icons">
+                    <a href="#"><img src="assets/Behance.svg" alt=""></a>
+                    <a href="#"><img src="assets/Dribbble.svg" alt=""></a>
+                    <a href="#"><img src="assets/IG.svg" alt=""></a>
+                    <a href="#"><img src="assets/Linkedln.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="form-container">
+            <h2>Describe Your Project</h2>
+            <form action="submit-form.php" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="project-description">Project Description</label>
+                    <textarea id="project-description" name="project-description" required></textarea>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+</section>
+
+                
     </body>
 </html>
