@@ -276,7 +276,7 @@ button {
 
 .portfolio-item img {
   max-width: 520px;
-  height: 550px;
+  height: auto;
   border-radius: 5px;
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);
 }
@@ -415,4 +415,47 @@ button[type="submit"] {
 
 button[type="submit"]:hover {
     background-color: #16a085;
+}
+
+/* Portfolio */
+
+.hero-portfolio{
+  background-color: #FAFAFA;
+  padding: 80px 120px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-portfolio h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #121212;
+  text-align: center;
+}
+
+.my-portfolio{
+  padding: 80px 120px;
+}
+
+.portfolio-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-item-text h3 {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.portfolio-item-text p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #121212;
 }
