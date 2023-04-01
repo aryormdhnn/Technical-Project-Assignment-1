@@ -543,3 +543,143 @@ button[type="submit"]:hover {
   font-weight: 700;
   color: #00A376;
 }
+
+/* about us */
+
+.hero-aboutus {
+  background-color: #FAFAFA;
+  padding: 80px 120px;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.hero-aboutus h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #121212;
+  text-align: center;
+}
+
+.my-about-us{
+  padding: 80px 120px 0 120px;
+}
+
+.my-about-text h2{
+  font-size: 56px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.my-about-text p{
+  font-size: 24px;
+  font-weight: 400;
+  color: #121212;
+  margin-top: 20px;
+  line-height: 160%;
+}
+
+.my-experience{
+  /* display: flex; */
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.my-experience-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-experience-right{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.my-experience h2{
+  font-size: 48px;
+  font-weight: 500;
+  color: #121211;
+}
+.my-experience-text{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.my-experience-text h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.my-experience-text p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #121212;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.my-experience-text li{
+  font-size: 16px;
+  font-weight: 400;
+  color: #121212;
+  margin-top: 8px;
+}
+
+
+.my-education{
+  /* display: flex; */
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.my-education-left{
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-education-right{
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-education h2{
+  font-size: 48px;
+  font-weight: 500;
+  color: #121211;
+}
+.my-education-text{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.my-education-text h3{
+  font-size: 24px;
+  font-weight: 700;
+  color: #121212;
+}
+
+.my-education-text p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #121212;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+.my-portfolio-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.my-portfolio-text h2{
+  font-size: 48px;
+  font-weight: 500;
+  color: #121211;
+}
